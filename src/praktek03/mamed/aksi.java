@@ -20,6 +20,15 @@ public class aksi {
         System.out.println(s.getMerk());
         System.out.print("Harganya \t: ");
         System.out.println(s.getHarga());
+        
+        bajumuslim sm = new bajumuslim();
+        sm.setJenis_baju("Karet");
+        sm.setMerk("Hitam");
+        sm.setHarga(10000);
+        sm.setBajumuslim("koko");
+        sm.cetakInfo();
+        System.out.println("Jenis \t:"+sm.getBajumuslim());
+        sm.throttle();
 
     }
 }
