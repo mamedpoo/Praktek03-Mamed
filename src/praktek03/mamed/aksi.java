@@ -7,6 +7,10 @@ public class aksi {
         s.jenis_baju="Kaos";
         s.merk="Owners";
         s.harga=10000;
+        
+        s.setJenis_baju("Jeans");
+        s.setMerk("Merah");
+        s.setHarga(1000);
          
         s.cetakInfo();
     }
