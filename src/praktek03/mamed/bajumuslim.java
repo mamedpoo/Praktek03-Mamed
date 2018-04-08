@@ -10,4 +10,11 @@ public class bajumuslim extends baju {
         System.out.println("string gaje.......;");
     }
     
+     public String getUkuran() {
+        return ukuran;
+    }
+
+    public void setUkuran(String ukuran) {
+        this.ukuran = ukuran;
+    }
 }
