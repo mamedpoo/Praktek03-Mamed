@@ -13,5 +13,13 @@ public class aksi {
         s.setHarga(1000);
          
         s.cetakInfo();
+        
+        System.out.print("Jenisnya \t: ");
+        System.out.println(s.getJenis_baju());
+        System.out.print("Merknya \t: ");
+        System.out.println(s.getMerk());
+        System.out.print("Harganya \t: ");
+        System.out.println(s.getHarga());
+
     }
 }
