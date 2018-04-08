@@ -11,6 +11,32 @@ public class baju {
                 "Harga \t:"+harga);
     
     }
+
+    public String getJenis_baju() {
+        return jenis_baju;
+    }
+
+    public void setJenis_baju(String jenis_baju) {
+        this.jenis_baju = jenis_baju;
+    }
+
+    public String getMerk() {
+        return merk;
+    }
+
+    public void setMerk(String merk) {
+        this.merk = merk;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+    
+    
     
     
 }
